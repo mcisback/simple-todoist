@@ -5,7 +5,9 @@ use Illuminate\Database\Seeder;
 class UsersTableSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Run the user seeds.
+     * Create 20 new user
+     * Admin is not present for now
      *
      * @return void
      */

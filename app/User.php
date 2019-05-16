@@ -37,6 +37,10 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    /**
+     * Create relation between user and tasks
+     * so you can retrive tasks from user object model
+     */
     public function tasks()
     {
         return $this->hasMany(App\Task::class);
